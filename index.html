@@ -41,7 +41,13 @@
 					</section>
 				
 			<div id="wrapper">
-				<img src="images/inner.png" width="100%" id="first">
+				
+				<!-- <img src="images/inner.png" width="100%" id="first"> -->
+				<picture>
+					<source media="(max-width: 750px)" srcset="images/inner-vertical.png" type="image/png">
+					<source media="(max-width: 1050px)" srcset="images/inner-square.png" type="image/png">
+					<img src="images/inner.png" width="100%" id="first">
+				</picture>
 				
 				<section>
 					
